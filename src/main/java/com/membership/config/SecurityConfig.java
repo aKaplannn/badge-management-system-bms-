@@ -42,7 +42,7 @@ public class SecurityConfig extends KeycloakWebSecurityConfigurerAdapter {
             .antMatchers("/intro/allusers").permitAll()
             .antMatchers("/intro/publics").anonymous();
         
-        //.antMatchers("/intro/publics").
+        //.antMatchers("/intro/publics").///////////////////
         
             
             //.anyRequest().denyAll();
